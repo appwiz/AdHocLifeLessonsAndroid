@@ -26,9 +26,15 @@ AdHocLifeLessons is an Android app built with Kotlin and Jetpack Compose. It wor
 - All information is stored locally in the app's storage. Nothing is synced across devices.
 - The app should store the last successfully retrieved lesson and the timestamp of the last update in local storage.
 
+### Header
+
+- Add a small header with a separator line. The title in the header is "// life lessons //" as written and left aligned. make it look cool.
+- adjust the layout. make sure you respect the visible view and the text is not overlapped by the device notch.
+
 ### Footer
 The app view also contains a footer.
 - Display a tiny footer at the bottom of the view that shows the last update time of the lesson in a human-readable format (e.g., "Last updated: 2 minutes ago"). The footer is always visible.
+- display the quote date "quoted: September 15, 2025"
 - The app should also have a button that allows the user to refresh the lesson by fetching it again from the API. Add this button to the footer.
 
 ### Automatic Updates
